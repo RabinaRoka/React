@@ -50,3 +50,15 @@ To pass an array to a JSX element, it must be treated as JavaScript and wrapped 
 this.setState({
   username: 'Lewis'
 });
+
+
+##React components have several special methods that provide opportunities to perform actions at specific points in the lifecycle of a component. These are called lifecycle methods, or lifecycle hooks, and allow you to catch components at certain points in time.
+
+
+##Here is a list of some of the main lifecycle methods: componentWillMount() componentDidMount() shouldComponentUpdate() componentDidUpdate() componentWillUnmount() The next several lessons will cover s
+
+
+###There is a mock API call in componentDidMount(). It sets state after 2.5 seconds to simulate calling a server to retrieve data
+
+
+##The componentDidMount() method is also the best place to attach any event listeners you need to add for specific functionality. React provides a synthetic event system which wraps the native event system present in browsers.
